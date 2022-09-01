@@ -1,2 +1,2 @@
-# foreignaid
-Foreign Aid Project for group 7 
+# Foreign Aid Unites States and Canada
+Group 7 Project 
