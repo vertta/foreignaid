@@ -1,16 +1,19 @@
 # Foreign Aid Unites States and Canada
 
-Data to possibly target
+Looking at foreign assistance given by the US per Country. 
+Possible data points
+
 US aid to country 
 Mortality Rate 
 Proverty 
  
 
 
-Data Source World Bank
 
-##Data Sets
-https://databank.worldbank.org/reports.aspx?source=2&country=CAN
+
+# Data Sets
+* Data Source World Bank https://databank.worldbank.org/reports.aspx?source=2&country=CAN (country name can be changed here)
+* Foreign Assistance https://foreignassistance.gov/data
 
 
 
