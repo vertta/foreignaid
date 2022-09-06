@@ -12,7 +12,7 @@ Proverty
 
 
 # Data Sets
-* Data Source World Bank https://databank.worldbank.org/reports.aspx?source=2&country=CAN (country name can be changed here)
+* Data Source World Bank https://databank.worldbank.org/source/world-development-indicators/
 * Foreign Assistance https://foreignassistance.gov/data
 
 
