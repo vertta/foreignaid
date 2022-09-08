@@ -9,7 +9,7 @@
 * Steven Rufus
 
 ### Proposal
-The aim of our project is to determine if there is any relationship between the amount of US foreign aid and the receiving country’s gross domestic product (GDP), total population and poverty rate between 2013 and 2021 for countries classified as “low income”. Once determined if there is any correlation, the data can also show the type of aid provided. We will load the data into a relational Postgres database.
+The aim of our project is to determine if there is any relationship between the amount of US foreign aid and the receiving country’s gross domestic product (GDP), total population and poverty rate between 2012 and 2020 for countries classified as “low income”. Once determined if there is any correlation, the data can also show the type of aid provided. We will load the data into a relational Postgres database.
 
 
 ### Method
