@@ -1,4 +1,4 @@
-## Foreign Aid Unites States and Canada
+## United States Foreign Aid Priorities
 
 ### Participants
 * Emmanuel Okecha
