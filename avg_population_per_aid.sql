@@ -2,9 +2,10 @@
 select 
 ua.country_code "Country Code"
 ,c.country_name "Country Name"
-,coalesce(round((yr2012 + yr2013 + yr2014+yr2015+yr2016+yr2017+yr2018+yr2019+yr2020)/9),0) as "Average GDP"
-,round(AVG(CAST(current_dollar_amount as decimal))) as "Average Aid" 
-,round((coalesce(round((yr2012 + yr2013 + yr2014+yr2015+yr2016+yr2017+yr2018+yr2019+yr2020)/9),0)/ round(AVG(CAST(current_dollar_amount as decimal))))) as "Population to Aid Ratio"
+,coalesce(round((yr2012 + yr2013 + yr2014+yr2015+yr2016+yr2017+yr2018+yr2019+yr2020)/9),0)::decimal as "Average GDP"
+,round(AVG(current_dollar_amount::decimal))::money as "Average Aid" 
+,round((coalesce(round((yr2012 + yr2013 + yr2014+yr2015+yr2016+yr2017+yr2018+yr2019+yr2020)/9),0)
+     / round(AVG(current_dollar_amount ::decimal)))) as "Population to Aid Ratio"
 ,round((yr2012 + yr2013 + yr2014+yr2015+yr2016+yr2017+yr2018+yr2019+yr2020)/9) as "Average Population"
 from us_aid ua
 inner join country c on ua.country_code= c.country_code
