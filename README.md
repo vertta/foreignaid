@@ -23,7 +23,7 @@ The aim of our project is to determine if there is any relationship between the 
 Using SQL queries, we determined the Middle East and North African region received the most aid between 2012 and 2020. Based on average between 2012 and 2020, despite Togo having a population average in the bottom 10 of low-income countries, it has the highest average population to average aid ratio of 117. 
 
 ##### Population to Aid Ratio
-![image](https://user-images.githubusercontent.com/104914008/189249076-55d89687-1cca-4232-861a-23e69cff457c.png)
+<img width="763" alt="image" src="https://user-images.githubusercontent.com/75756974/189260168-a72ce993-ca29-4d19-bd52-03a2c5b1c66d.png">
 
 
 
